@@ -223,6 +223,11 @@ const Services = () => {
       title: "Documento Soporte Electrónico",
       description: "Recibe cuentas de proveedores como documentos soporte",
       icon: <CreditCard className="h-6 w-6" />
+    },
+     {
+      title: "Eventos de Título Valor",
+      description: "Gestiona tus títulos valor con eventos electrónicos",
+      icon: <CreditCard className="h-6 w-6" />
     }
   ];
 

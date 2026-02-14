@@ -40,7 +40,7 @@ const About = () => {
 
   const timeline = [
     {
-      year: "2019",
+      year: "2017",
       title: "Fundación de 5 Direcciones",
       description: "Nace en la era del emprendimiento con el objetivo de acompañar a los empresarios."
     },
@@ -49,15 +49,16 @@ const About = () => {
       title: "Expansión de Servicios",
       description: "Ampliamos nuestro portafolio con nuevas áreas de consultoría especializada."
     },
+   
     {
       year: "2021",
-      title: "Certificaciones Internacionales",
-      description: "Obtenemos certificaciones que respaldan la calidad de nuestros servicios."
-    },
-    {
-      year: "2022",
       title: "Facturación Electrónica",
       description: "Lanzamos nuestra plataforma integral de facturación electrónica."
+    },
+     {
+      year: "2022",
+      title: "Certificaciones Internacionales",
+      description: "Obtenemos certificaciones que respaldan la calidad de nuestros servicios con nuestros clientes aliados."
     },
     {
       year: "2023",
@@ -68,6 +69,11 @@ const About = () => {
       year: "2024",
       title: "Servicios Digitales",
       description: "Incorporamos marketing digital y desarrollo web a nuestro portafolio."
+    },
+     {
+      year: "2025",
+      title: "Marca Registrada",
+      description: "Obtenemos la marca registrada de 5 Direcciones para consolidar nuestra identidad empresarial."
     }
   ];
 
@@ -114,7 +120,7 @@ const About = () => {
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
-              Desde 2019, hemos sido el aliado estratégico de más de 500 empresas, 
+              Desde 2017, hemos sido el aliado estratégico de más de 500 empresas, 
               brindando soluciones integrales para el éxito empresarial.
             </p>
           </div>
@@ -282,7 +288,7 @@ const About = () => {
                   <CheckCircle className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold mb-1">Experiencia Comprobada</h4>
-                    <p className="text-muted-foreground text-sm">Más de 5 años asesorando empresas de diferentes sectores y tamaños.</p>
+                    <p className="text-muted-foreground text-sm">Más de 8 años asesorando empresas de diferentes sectores y tamaños.</p>
                   </div>
                 </div>
                 
@@ -336,7 +342,7 @@ const About = () => {
               </Card>
               
               <Card className="p-6 text-center">
-                <div className="text-3xl font-bold text-accent mb-2">5+</div>
+                <div className="text-3xl font-bold text-accent mb-2">8+</div>
                 <p className="text-sm text-muted-foreground">Años Experiencia</p>
               </Card>
             </div>

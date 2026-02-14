@@ -74,6 +74,18 @@ const Billing = () => {
         "Integración con pagos"
       ],
       color: "from-orange-500 to-orange-600"
+    },
+    {
+      icon: <CreditCard className="h-12 w-12" />,
+      title: "Eventos de título valor",
+      description: "Gestiona eventos de título valor como emisión, transferencia y cancelación de títulos.",
+      features: [
+        "Acuse de recibo de la factura, de los bienes o servicios.",
+        "Generación de rechazo de la factura en caso de que aplique.",
+        "Aceptación expresa de la factura como título valor.",
+        "Validación de facturas validas según la Dian."
+      ],
+      color: "from-orange-500 to-orange-600"
     }
   ];
 
@@ -102,47 +114,38 @@ const Billing = () => {
 
   const plans = [
     {
-      name: "Básico",
-      price: "$89.000",
-      period: "mes",
-      description: "Perfecto para pequeñas empresas",
+      name: "Con Todo",
+      price: "$189.900",
+      period: "Vigencia 2 años",
+      description: "Es el paquete que necesitas para empezar a gestionar tu negocio de la mejor manera.",
       features: [
-        "Hasta 100 facturas/mes",
-        "Emisión y recepción",
-        "Soporte básico",
-        "1 usuario",
-        "Reportes básicos"
+        "50 folios para facturación electrónica, buzón tributario y eventos de título valor",
+        "25 folios para documentos soporte",
+        "25 folios para documentos soporte de nómina electrónica"
       ],
       popular: false
     },
     {
-      name: "Profesional",
-      price: "$159.000",
-      period: "mes",
-      description: "Ideal para empresas en crecimiento",
+      name: "Con todo PRO",
+      price: "$309.900",
+      period: "Vigencia 2 años",
+      description: "Es el paquete ideal para empresas en crecimiento que necesitan una solución completa y escalable.",
       features: [
-        "Hasta 500 facturas/mes",
-        "Todos los documentos electrónicos",
-        "Soporte prioritario",
-        "Hasta 5 usuarios",
-        "Reportes avanzados",
-        "Integración API"
+        "200 folios para facturación electrónica, buzón tributario y eventos de título valor",
+        "150 folios para documentos soporte",
+        "50 folios para documentos soporte de nómina electrónica"
       ],
       popular: true
     },
     {
-      name: "Empresarial",
-      price: "$299.000",
-      period: "mes",
-      description: "Para grandes empresas",
+      name: "Con todo MAX",
+      price: "$699.900",
+      period: "Vigencia 2 años",
+      description: "El mejor plan para gestionar tu negocio",
       features: [
-        "Facturas ilimitadas",
-        "Suite completa",
-        "Soporte 24/7",
-        "Usuarios ilimitados",
-        "Analytics avanzados",
-        "Integración completa",
-        "Consultor dedicado"
+        "600 folios para facturación electrónica, buzón tributario y eventos de título valor",
+        "400 folios para documentos soporte",
+        "300 folios para documentos soporte de nómina electrónica"
       ],
       popular: false
     }
@@ -193,14 +196,11 @@ const Billing = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-primary hover:bg-white/90">
-                Prueba Gratuita 30 Días
+                Obten tus folios de cortesía 
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
-                <Smartphone className="mr-2 h-5 w-5" />
-                Ver Demo
-              </Button>
+              
             </div>
           </div>
         </div>

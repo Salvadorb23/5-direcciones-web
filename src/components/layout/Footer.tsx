@@ -73,7 +73,7 @@ const Footer = () => {
             </div>
             
             <p className="text-neutral-300 text-sm leading-relaxed">
-              Acompañamos a los emprendedores en la consecución de sus objetivos empresariales, 
+              Acompañamos a los empresarios en la consecución de sus objetivos empresariales, 
               proporcionando soluciones integrales para el crecimiento de su negocio.
             </p>
 
@@ -157,7 +157,7 @@ const Footer = () => {
                   href="tel:+573223674992" 
                   className="text-neutral-300 text-sm hover:text-white transition-colors"
                 >
-                  (+57) 322 367 4992
+                  (+57) 301 393 6616
                 </a>
               </div>
               
