@@ -6,7 +6,8 @@ import {
   Phone, 
   MapPin,
   ArrowRight,
-  Youtube
+  Youtube,
+  Linkedin,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -74,6 +75,14 @@ const Footer = () => {
               >
                 <Instagram className="h-5 w-5" />
               </a>
+              <a
+                href="https://tiktok.com/@5direccionescol"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
+              >
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/tiktok.svg" alt="TikTok" className="h-5 w-5" />
+              </a>
               <a 
                 href="https://www.youtube.com/@5direcciones909" 
                 target="_blank"
@@ -82,6 +91,15 @@ const Footer = () => {
               >
                 <Youtube className="h-5 w-5" />
               </a>
+              <a 
+                href="https://www.linkedin.com/company/5direccionescol" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+               
             </div>
           </div>
 
