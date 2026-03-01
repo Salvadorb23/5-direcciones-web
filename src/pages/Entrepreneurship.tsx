@@ -285,7 +285,7 @@ const Entrepreneurship = () => {
               
               <Button size="lg" className="btn-hero" asChild>
                 <a 
-                  href="https://api.whatsapp.com/send?phone=573223674992&text=Hola,%20me%20interesa%20ser%20representante%20de%205%20Direcciones"
+                  href="https://api.whatsapp.com/send?phone=573013936616&text=Hola,%20me%20interesa%20ser%20representante%20de%205%20Direcciones"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

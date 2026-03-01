@@ -73,7 +73,7 @@ const Home = () => {
       image: direccionContable,
       icon: <BarChart3 className="h-8 w-8" />,
       link: "/servicios/direccion-contable",
-      features: ["Estrategia tributaria", "Valoración de empresas", "Gestión contable", "Revisión fiscal"]
+      features: ["Estrategia tributaria", "Valoración de empresas", "Gestión contable", "Revisoría fiscal"]
     },
     {
       id: 3,
@@ -114,21 +114,21 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: "Carlos Rodríguez",
-      company: "Tech Innovations S.A.S",
-      text: "5 Direcciones transformó completamente nuestros procesos administrativos. Su equipo profesional nos ayudó a crecer de manera organizada.",
+      name: "Veronica Cano Castro",
+      company: "Gerente Talents Selection S.A.S",
+      text: "Con 5 Direcciones pasé de buscar facturas a tener todo organizado. Ahora controlo mi negocio en 10 minutos diarios.",
       rating: 5
     },
     {
-      name: "Ana María López",
-      company: "Comercial del Valle",
-      text: "La asesoría contable y financiera ha sido fundamental para la toma de decisiones estratégicas en nuestra empresa.",
+      name: "Bibiana Londoño",
+      company: "Propietaria de Emparepas Mozarella",
+      text: "5 Direcciones registró mi marca. Ahora vendo tranquila sabiendo que mi logo está protegido legalmente.",
       rating: 5
     },
     {
-      name: "Roberto Silva",
-      company: "Constructora Horizonte",
-      text: "Excelente gestión de proyectos. Cumplieron todos los tiempos y nos mantuvieron informados en cada etapa.",
+      name: "Fernando Hernandez",
+      company: "Propietario de Granfer Percheros y Repisas",
+      text: "Con 5 Direcciones implementé facturación electrónica en 48 horas. Ahora facturo desde el celular y nunca pierdo una venta.",
       rating: 5
     }
   ];
@@ -228,7 +228,7 @@ ${formData.mensaje}
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed opacity-90">
-            Acompañamos a emprendedores y empresarios en la consecución de sus objetivos empresariales 
+            Acompañamos a empresarios en la consecución de sus objetivos empresariales 
             con soluciones integrales y especializadas.
           </p>
           
