@@ -383,7 +383,7 @@ const About = () => {
               </Link>
             </Button>
             
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary" asChild>
+            <Button size="lg" variant="outline" className="border-white text-primary hover:bg-white hover:text-primary" asChild>
               <Link to="/servicios">
                 Ver Servicios
               </Link>

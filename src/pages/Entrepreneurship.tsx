@@ -171,7 +171,7 @@ const Entrepreneurship = () => {
                 Aplicar Ahora
               </Button>
               
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+              <Button size="lg" variant="outline" className="border-white text-primary hover:bg-white hover:text-primary">
                 <Users className="mr-2 h-5 w-5" />
                 Más Información
               </Button>
@@ -503,7 +503,7 @@ const Entrepreneurship = () => {
               </a>
             </Button>
             
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary" asChild>
+            <Button size="lg" variant="outline" className="border-white text-primary hover:bg-white hover:text-primary" asChild>
               <Link to="/contacto">
                 Más Información
               </Link>
