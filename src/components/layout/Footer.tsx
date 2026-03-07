@@ -16,13 +16,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    { name: "Dirección Administrativa", href: "/servicios/direccion-administrativa" },
-    { name: "Dirección Contable", href: "/servicios/direccion-contable" },
-    { name: "Gestión de Proyectos", href: "/servicios/gestion-proyectos" },
-    { name: "Talento Humano", href: "/servicios/talento-humano" },
-    { name: "Dirección Jurídica", href: "/servicios/direccion-juridica" },
-    { name: "Marketing Digital", href: "/servicios/marketing-digital" },
-    { name: "Desarrollo Web", href: "/servicios/desarrollo-web" }
+    { name: "Dirección Administrativa", href: "/servicios" },
+    { name: "Dirección Contable", href: "/servicios" },
+    { name: "Gestión de Proyectos", href: "/servicios" },
+    { name: "Talento Humano", href: "/servicios" },
+    { name: "Dirección Jurídica", href: "/servicios" },
+    { name: "Marketing Digital", href: "/servicios" },
+    { name: "Desarrollo Web", href: "/servicios" }
   ];
 
   const quickLinks = [
@@ -92,7 +92,7 @@ const Footer = () => {
                 <Youtube className="h-5 w-5" />
               </a>
               <a 
-                href="https://www.linkedin.com/company/5direccionescol" 
+                href="https://www.linkedin.com/5direccionescol" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"

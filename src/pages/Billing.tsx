@@ -330,7 +330,7 @@ const Billing = () => {
                   asChild
                 >
                   <a 
-                    href="https://api.whatsapp.com/send?phone=573223674992&text=Hola,%20me%20interesa%20el%20plan%20de%20facturación%20electrónica"
+                    href="https://api.whatsapp.com/send?phone=573013936616&text=Hola,%20me%20interesa%20el%20plan%20de%20facturación%20electrónica"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -377,7 +377,7 @@ const Billing = () => {
           <div className="mt-12 text-center">
             <Button size="lg" className="btn-hero" asChild>
               <a
-                href="https://api.whatsapp.com/send?phone=573223674992&text=Cotiza%20con%20nosotros%20el%20proceso%20de%20implementaci%C3%B3n"
+                href="https://api.whatsapp.com/send?phone=573013936616&text=Cotiza%20con%20nosotros%20el%20proceso%20de%20implementaci%C3%B3n"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -485,7 +485,7 @@ const Billing = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="btn-hero" asChild>
               <a 
-                href="https://api.whatsapp.com/send?phone=573223674992&text=Hola,%20quiero%20iniciar%20con%20facturación%20electrónica"
+                href="https://api.whatsapp.com/send?phone=573013936616&text=Hola,%20quiero%20iniciar%20con%20facturación%20electrónica"
                 target="_blank"
                 rel="noopener noreferrer"
               >

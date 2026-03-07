@@ -166,14 +166,26 @@ const Entrepreneurship = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-primary hover:bg-white/90">
-                <Rocket className="mr-2 h-5 w-5" />
-                Aplicar Ahora
+              <Button size="lg" className="bg-white text-primary hover:bg-white/90" asChild>
+                <a 
+                  href="https://api.whatsapp.com/send?phone=573013936616&text=Hola,%20quiero%20ser%20representante%20de%205%20Direcciones"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Rocket className="mr-2 h-5 w-5" />
+                  Aplicar Ahora
+                </a>
               </Button>
               
-              <Button size="lg" variant="outline" className="border-white text-primary hover:bg-white hover:text-primary">
-                <Users className="mr-2 h-5 w-5" />
-                Más Información
+              <Button size="lg" variant="outline" className="border-white text-primary hover:bg-white hover:text-primary" asChild>
+                <a 
+                  href="https://api.whatsapp.com/send?phone=573013936616&text=Hola,%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20ser%20representante%20de%205%20Direcciones"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Users className="mr-2 h-5 w-5" />
+                  Más Información
+                </a>
               </Button>
             </div>
           </div>
