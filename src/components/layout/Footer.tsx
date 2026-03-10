@@ -92,7 +92,7 @@ const Footer = () => {
                 <Youtube className="h-5 w-5" />
               </a>
               <a 
-                href="https://www.linkedin.com/5direccionescol" 
+                href="https://www.linkedin.com/company/5direccionescol/posts/?feedView=all" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
