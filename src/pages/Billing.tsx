@@ -263,10 +263,10 @@ const Billing = () => {
         { name: "Habilitación de resolución", price: "$60.000" },
         
         { name: "Implementación Premium Factura", price: "$300.000" },
-        { name: "Implementación Básico Nómina", price: "$150.000" },
+        
         
         { name: "Implementación Premium Nómina", price: "$300.000" },
-        { name: "Combo Intermedio Implementación", price: "$300.000" },
+        
         { name: "Combo Premium Implementación", price: "$450.000" },
         { name: "Implementación Doc. Soporte Electrónico", price: "$150.000" },
 
