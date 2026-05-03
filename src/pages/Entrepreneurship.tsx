@@ -145,6 +145,91 @@ const Entrepreneurship = () => {
     }
   ];
 
+  // ============================================
+  // DATOS PARA SECCIÓN: Estructura del Programa
+  // ============================================
+  // Array que contiene las 5 etapas/módulos del programa "Emprende desde tu fuerza interior"
+  // Cada etapa tiene: step (número), title (nombre), description (descripción principal), subtopics (subtemas opcionales)
+  // EDITABLE: Modifica titles, descriptions o subtopics según necesidad
+  const programStages = [
+    {
+      step: 1,
+      title: "Activa tu fuerza emprendedora",
+      description: "Fortalecer el autoconcepto como emprendedor y generar conciencia de las capacidades y oportunidades internas.",
+      subtopics: [
+        "Rompe los bloqueos y activa tu confianza",
+        "Identifica y transforma los miedos, dudas y creencias limitantes que frenan el avance emprendedor",
+        "Da forma a tu idea desde tu esencia",
+        "Alinear la propuesta de negocio con talentos, valores y pasiones personales"
+      ]
+    },
+    {
+      step: 2,
+      title: "Diseña tu modelo de negocio con propósito",
+      description: "Construir una estructura clara y funcional del modelo de negocio, alineada con la visión personal.",
+      subtopics: []
+    },
+    {
+      step: 3,
+      title: "Planifica y lanza con acción consciente",
+      description: "Aterrizar un plan de acción claro, sostenible y conectado con la realidad del emprendedor e iniciar la visión de crecimiento.",
+      subtopics: [
+        "Acción consciente: Inicio la creación de mi empresa bajo la mirada de 5 direcciones",
+        "Jurídico: Formalidades para la constitución desde la actividad económica",
+        "Contable: Contabilidad para mi negocio desde mi especialidad",
+        "Talento humano: Identifico las capacidades de otros para que acompañen mi propósito",
+        "Estrategia digital: Conecto con mi comunidad a través de las herramientas de difusión",
+        "Gestión operativa: Lanzo mi negocio a mercados locales"
+      ]
+    },
+    {
+      step: 4,
+      title: "Conexión",
+      description: "Extensión de mi negocio hacia nuevos mercados.",
+      subtopics: []
+    },
+    {
+      step: 5,
+      title: "Expansión",
+      description: "Crear contactos nacionales e internacionales que permitan relaciones sostenibles y duraderas.",
+      subtopics: []
+    }
+  ];
+
+  // ============================================
+  // DATOS PARA SECCIÓN: Bloques Complementarios
+  // ============================================
+  // Array con 3 bloques informativos: Metodología, Estructura, Resultados esperados
+  // Cada bloque contiene: title (nombre), items (array de puntos/descripciones)
+  // EDITABLE: Modifica items según actualizaciones del programa
+  const programDetails = [
+    {
+      title: "Metodología",
+      items: [
+        "Técnicas de coaching y neuro entrenamiento",
+        "Métodos vivenciales, disruptivos y ejercicios introspectivos",
+        "Storytelling, gamificación y aprendizaje basado en retos"
+      ]
+    },
+    {
+      title: "Estructura",
+      items: [
+        "Duración: cada módulo de 2 horas",
+        "Modalidad: presencial",
+        "Entregable: material de trabajo"
+      ]
+    },
+    {
+      title: "Resultados esperados",
+      items: [
+        "Fortalecimiento del autoconcepto y mentalidad emprendedora",
+        "Claridad sobre la propuesta y modelo de negocio",
+        "Plan de acción claro y sostenible",
+        "Herramientas concretas para avanzar y tomar decisiones"
+      ]
+    }
+  ];
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -216,6 +301,122 @@ const Entrepreneurship = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">{benefit.title}</h3>
                 <p className="text-muted-foreground">{benefit.description}</p>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ========================================== */}
+      {/* SECCIÓN: Estructura del Programa Emprende */}
+      {/* ========================================== */}
+      {/* Detalle: Sección que replica el diseño de "Proceso de selección" */}
+      {/* Contiene: 5 etapas/módulos del programa con timeline visual */}
+      {/* Responsive: Se adapta a mobile (cards) y desktop (timeline alternado) */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <Badge className="mb-4 bg-accent/10 text-accent">
+              Programa Emprende desde tu fuerza interior
+            </Badge>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Estructura del programa
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Un programa transformador para personas que tienen una idea de negocio y desean estructurarla desde su autenticidad, confianza y acción sostenible.
+            </p>
+          </div>
+
+          {/* Timeline de 5 etapas - Replica la estructura de "Proceso de selección" */}
+          <div className="max-w-4xl mx-auto">
+            <div className="relative">
+              {/* Línea de timeline - Visible solo en desktop */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-brand hidden lg:block"></div>
+              
+              {/* Mapeo de las 5 etapas del programa */}
+              {programStages.map((stage, index) => (
+                <div key={index} className={`relative flex items-center mb-12 ${
+                  index % 2 === 0 ? 'lg:flex-row-reverse' : ''
+                }`}>
+                  {/* Punto del timeline - Punto visual en la línea */}
+                  <div className="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-accent rounded-full border-4 border-white shadow-lg z-10 flex items-center justify-center text-white font-bold hidden lg:flex">
+                    {stage.step}
+                  </div>
+                  
+                  {/* Card con contenido de la etapa */}
+                  <div className={`w-full lg:w-5/12 ${index % 2 === 0 ? 'lg:text-right lg:pr-8' : 'lg:pl-8'}`}>
+                    <Card className="p-6 hover:shadow-lg transition-all duration-300">
+                      {/* Punto del timeline para mobile */}
+                      <div className="lg:hidden w-12 h-12 bg-accent rounded-full border-4 border-white shadow-lg flex items-center justify-center text-white font-bold mb-4">
+                        {stage.step}
+                      </div>
+                      
+                      {/* Título de la etapa */}
+                      <h3 className="text-xl font-semibold mb-2 text-primary">{stage.title}</h3>
+                      
+                      {/* Descripción principal de la etapa */}
+                      <p className="text-muted-foreground mb-4">{stage.description}</p>
+                      
+                      {/* Subtemas (si existen) - Se muestran como lista de puntos */}
+                      {stage.subtopics && stage.subtopics.length > 0 && (
+                        <div className="mt-4 pt-4 border-t border-muted">
+                          <ul className="space-y-2">
+                            {stage.subtopics.map((subtopic, subIndex) => (
+                              <li key={subIndex} className="flex items-start text-sm text-muted-foreground">
+                                <span className="text-accent mr-3 font-bold">•</span>
+                                <span>{subtopic}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </Card>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Subtítulo explicativo debajo del timeline */}
+          <div className="text-center mt-16 px-4 py-8 bg-gradient-subtle rounded-lg max-w-3xl mx-auto">
+            <h3 className="text-lg font-semibold mb-3 text-primary">Propósito del programa</h3>
+            <p className="text-muted-foreground">
+              Acompañamos a los participantes a transformar su visión emprendedora en una propuesta concreta, 
+              alineada con sus talentos, identidad y capacidades, generando un plan de acción consciente y sostenible.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ========================================== */}
+      {/* SECCIÓN: Bloques Complementarios - Detalles del Programa */}
+      {/* ========================================== */}
+      {/* Detalle: 3 cards informativos con: Metodología, Estructura, Resultados */}
+      {/* Patrón: Similar al grid de "Beneficios" - 3 columnas en desktop, 1 en mobile */}
+      <section className="py-20 bg-gradient-subtle">
+        <div className="container mx-auto px-4">
+          {/* Grid de 3 cards - Metodología, Estructura, Resultados */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {programDetails.map((detail, index) => (
+              <Card key={index} className="p-8 group hover:shadow-xl transition-all duration-300">
+                {/* Barra de color en la parte superior del card */}
+                <div className="h-1 w-16 bg-gradient-brand rounded-full mb-6"></div>
+                
+                {/* Título del bloque */}
+                <h3 className="text-xl font-semibold mb-6 text-primary group-hover:text-accent transition-colors">
+                  {detail.title}
+                </h3>
+                
+                {/* Lista de items del bloque */}
+                <ul className="space-y-3">
+                  {detail.items.map((item, itemIndex) => (
+                    <li key={itemIndex} className="flex items-start text-muted-foreground">
+                      {/* Punto decorativo */}
+                      <span className="text-accent mr-3 mt-1 font-bold">→</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
               </Card>
             ))}
           </div>
