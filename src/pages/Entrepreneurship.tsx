@@ -317,10 +317,10 @@ const Entrepreneurship = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-accent/10 text-accent">
-              Programa Emprende desde tu fuerza interior
+              Estructura del programa
             </Badge>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Estructura del programa
+              Programa Emprende desde tu fuerza interior
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Un programa transformador para personas que tienen una idea de negocio y desean estructurarla desde su autenticidad, confianza y acción sostenible.

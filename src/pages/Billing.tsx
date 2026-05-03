@@ -261,17 +261,15 @@ const Billing = () => {
       legal: "* Precios netos * Soporte técnico incluido * Los paquetes con hasta 1.000 folios tienen vigencia de 1 año. * Los paquetes con más de 1.000 folios tienen vigencia de 2 años. * El tiempo de vigencia inicia a partir de la fecha de activación del paquete.",
       plans: [
         { name: "Habilitación de resolución", price: "$60.000" },
-        { name: "Implementación intermedio factura", price: "$220.000" },
+        
         { name: "Implementación Premium Factura", price: "$300.000" },
         { name: "Implementación Básico Nómina", price: "$150.000" },
-        { name: "Implementación Intermedio Nómina", price: "$220.000" },
+        
         { name: "Implementación Premium Nómina", price: "$300.000" },
         { name: "Combo Intermedio Implementación", price: "$300.000" },
-        { name: "Combo Premium Implementación", price: "$430.000" },
-        { name: "Implementación Doc. Soporte Electrónico", price: "$100.000" },
-        { name: "Implementación Intermedio Buzón Tributario - Cliente nuevo", price: "$220.000" },
-        { name: "Implementación Premium Buzón Tributario - Cliente nuevo", price: "$300.000" },
-        { name: "Implementación Buzón Tributario - Cliente Factiratech", price: "$100.000" }
+        { name: "Combo Premium Implementación", price: "$450.000" },
+        { name: "Implementación Doc. Soporte Electrónico", price: "$150.000" },
+
       ]
     }
   };
